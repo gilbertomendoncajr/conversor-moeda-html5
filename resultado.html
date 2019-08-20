@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Conversor de Moeda</title>
+		<meta charset='UTF-8' />
+		
+		<script>
+			// JavaScript
+			function voltar(){
+				var resposta = confirm("Deseja voltar ?");
+				if (resposta){
+				history.go(-1)
+				//location.href = "index.html";
+			}
+				
+			}
+		</script>
+	</head>
+	
+	<body>
+		<h1>O resultado é ...</h1>
+		
+		<button type="button" onclick="voltar()" >
+			Voltar
+		</button>
+	</body>
+</html>
