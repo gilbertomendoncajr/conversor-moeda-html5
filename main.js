@@ -1,6 +1,6 @@
 function chamarAPI(){
 	console.log("Chamando API");
-	const endpoint = "https://api.exchangeratesapi.io/latest";
+	const endpoint = "api/latest";
 	$.get(endpoint, callback );
 }
 
