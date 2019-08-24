@@ -1,11 +1,6 @@
 function chamarAPI(){
 	console.log("Chamando API");
 	const endpoint = "api/latest";
-	var oParametros = {
-		base: $("#moeda_origem").val()
-	};
-	$.get(endpoint, oParametros, callback );
-	const endpoint = "api/latest";
 	$.get(endpoint, callback );
 }
 
